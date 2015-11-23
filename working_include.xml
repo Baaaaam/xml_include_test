@@ -1,0 +1,22 @@
+<XXX>
+<recipe>
+  <name>proton_recipe</name>
+  <basis>mass</basis>
+  <nuclide>
+    <id>010010000</id>
+    <comp>1</comp>
+  </nuclide>
+</recipe>
+
+<prototype>
+  <name>SFR_B_cooling</name>
+  <config>
+    <Storage>
+      <in_commods><val>SFR_B_spent</val></in_commods>
+      <out_commods><val>SFR_B_spent_cooled</val></out_commods>
+      <residence_time>84</residence_time>
+    </Storage>
+  </config>
+</prototype>
+
+</XXX>

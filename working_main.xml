@@ -1,0 +1,3 @@
+<simulation xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="working_include.xml" parse="xml" xpointer="xpointer(//XXX/*)"/>
+</simulation>
