@@ -25,9 +25,10 @@ as you can see the example of the website did not work (website_main.xml):
 but when removing the second block of the include (website_main_one_block_include.xml):
 it works!
 
-a proper way to deal with it is to add a master block to in included xml file (such as <XXX> ... </XXX>) and to do change the insertion command :
+a proper way to deal with it is to add a master block in the included xml file (such as <XXX> ... </XXX>) and to change the insertion command :
 
     <xi:include href="working_include.xml" xpointer="xpointer(//XXX/*)"/>
     
-*(see working\*.xml files...)*
+*(see working ... .xml files...)*
+
 the addition of xpointer="xpointer(//XXX/*)" will allows to include all blocks in the <XXX> </XXX> block but without including the master block <XXX>
