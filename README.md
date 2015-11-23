@@ -29,6 +29,5 @@ a proper way to deal with it is to add a master block to in included xml file (s
 
     <xi:include href="working_include.xml" xpointer="xpointer(//XXX/*)"/>
     
-    *(see working*.xml files...)*
-
+*(see working\*.xml files...)*
 the addition of xpointer="xpointer(//XXX/*)" will allows to include all blocks in the <XXX> </XXX> block but without including the master block <XXX>
